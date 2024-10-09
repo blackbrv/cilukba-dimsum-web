@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef } from "react";
+import React from "react";
 import logo from "../../assets/images/logo.png";
 import Image from "next/image";
 import Link from "next/link";
@@ -23,7 +23,7 @@ const Navbar = ({}) => {
     <div className="w-full h-full text-white flex flex-row items-center justify-between pt-2 pb-2 pl-10 pr-10">
       <div className="w-16 h-16">
         <Link href={"/"}>
-          <Image src={logo} />
+          <Image src={logo} alt="logo" />
         </Link>
       </div>
       <div>
