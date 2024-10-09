@@ -7,7 +7,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 const AccordionFaq = ({ headText, detailsText }) => {
   return (
     <div className="w-full">
-      <Accordion className="bg-transparent shadow-none">
+      <Accordion style={{ background: "transparent", boxShadow: "none" }}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1-content"
