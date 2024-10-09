@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./header";
+import Header from "./Header";
 import VarianMenu from "./VarianMenu";
 import OutletContent from "./OutletContent";
 import Faq from "./Faq";
